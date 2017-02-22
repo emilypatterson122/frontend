@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Particles and Parallax</title>
+    <!-- Bootstrap: Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Bootstrap: Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Bootstrap: Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- font-awesome css min file-->
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+    <!--    jQuery cdn-->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <!--    parallax.min.js paths-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="parallax.js-1.4.2/parallax.min.js"></script>
+    <!--    particles cdn-->
+    <script src="https://npmcdn.com/particlesjs@1.0.2/dist/particles.min.js"></script>
+    <!--    link to my stylesheet-->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <!-- Google fonts -->
+    <link rel="stylesheet" type="text/css" href="par.css"> </head>
+
+<body>
+    <div class="top text-center">
+        <h1 class="bannerText">TRAVEL MORE.<br> GET MORE FROM TRAVEL.</h1><br>
+        <button type="button" class="btn btn-info">Sign up</button>
+    </div>
+    <!--    particles display-->
+    <canvas id="myCanvas"></canvas>
+    <div class="container">
+        <div class="text-center" id="divOne">
+            <h1>TRAVEL <em>EASY</em>.</h1>
+            <hr>
+            <p>Ready to relax and enjoy yourself?</p>
+            <p>We invite you to our Adventure Series. You will learn everything you need to know in order to become a local... in a country of your choosing. Our Series includes research sessions, bargain-hunting, and a platform to network with fellow adventurers.</p>
+        </div>
+        <!-- make_easy -->
+    </div>
+    <!-- container -->
+    <!--    parallax window-->
+    <div class="parallax-window" data-parallax="scroll" data-image-src="1.jpg"></div>
+    <!--    parallax window-->
+    <div class="container">
+        <div class="text-center" id="divTwo">
+            <h1>NOTHING MATTERS MORE<br> THAN YOUR EXPERIENCES.</h1>
+            <hr>
+            <div class="row">
+                <div class="col-md-3 col-sm-12 col-xs-12"> <i class="fa fa-globe fa-4x"></i> </div>
+                <div class="col-md-6 col-sm-12 col-xs-12"><p>It's not enough to know about other cultures. In order to truly understand them, you must experience them first-hand.</p></div>
+                <div class="col-md-3 col-sm-12 col-xs-12"> <i class="fa fa-suitcase fa-4x"></i> </div>
+            </div>
+            <br><br>
+        </div>
+    </div>
+    <!-- container -->
+    <!--    parallax window-->
+    <div class="parallax-window" data-parallax="scroll" data-image-src="2.jpg"></div>
+    <!--    parallax window-->
+    <div class="container">
+        <div class="text-center" id="divThree">
+            <h1>FAQ</h1>
+            <hr>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 faqDivs">
+                        <strong><p>Who should become an Adventurer?</p></strong>
+                        <p>Anyone interested in pursuing their curiosities when it comes to outward discovery.</p>
+                    </div>
+                    <div class="col-md-10 col-md-offset-1 faqDivs">
+                        <strong><p>What can I expect to learn from this Series?</p></strong>
+                        <p>A previously untapped self-awareness, how to travel smarter not harder, and how to interact with people different from yourself.</p>
+                    </div>
+                    <div class="col-md-10 col-md-offset-1 faqDivs">
+                        <strong><p>Is there a refund if I am not satisfied after I take the Series?</p></strong>
+                        <p>No. Travel costs are final. Duh.</p>
+                    </div>
+                </div> <!-- row -->
+            <!-- container-->
+        </div>
+        <!-- FAQ text-center-->
+    </div>
+    <!-- container -->
+    <br>
+    <!--      js link to my file-->
+    <script src="par.js"></script>
+</body>
+
+</html>
